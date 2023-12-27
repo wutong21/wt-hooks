@@ -1,0 +1,21 @@
+{
+  "name": "wt-hooks",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "dev:docs": "vitepress dev docs",
+    "build:docs": "vitepress build docs",
+    "serve:docs": "vitepress serve docs",
+    "build": "vite build",
+    "pub": "pnpm run build && pnpm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^10.3.10",
+    "vite": "^5.0.10",
+    "vitepress": "1.0.0-rc.32"
+  }
+}
