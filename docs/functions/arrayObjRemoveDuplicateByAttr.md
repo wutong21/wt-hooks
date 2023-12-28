@@ -5,7 +5,7 @@
 ## 示例
 
 ```js
-import { arrayObjRemoveDuplicateByAttr } from "sec-hooks";
+import { arrayObjRemoveDuplicateByAttr } from "wt-hooks";
 
 arrayObjRemoveDuplicateByAttr(array, attr)
 

@@ -90,12 +90,12 @@ const sidebar: DefaultTheme.Sidebar = {
 };
 
 export default defineConfig({
-  title: "Sec Hooks",
+  title: "Wt Hooks",
   lang: "cn-ZH",
   base: "/",
   lastUpdated: true,
   themeConfig: {
-    siteTitle: "Sec Hooks",
+    siteTitle: "Wt Hooks",
     nav,
     sidebar,
   },

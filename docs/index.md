@@ -3,12 +3,12 @@ layout: home
 sidebar: false
 
 hero:
-  name: SecHooks
+  name: WtHooks
   text: 收集了业务公共方法
   tagline: 可快速复用此前沉淀的多个业务公共方法
   # image:
   #   # src: /logo.png
-  #   alt: SecHooks
+  #   alt: WtHooks
   actions:
     - theme: brand
       text: 指南

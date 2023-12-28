@@ -6,7 +6,7 @@
 
 
 ```js
-import { formatterStringby10Time } from 'sec-hooks'
+import { formatterStringby10Time } from 'wt-hooks'
 
 console.log(formatterStringby10Time(1703655589)) // 2023-12-27 13:39:49
 console.log(formatterStringby10Time(timestamp)) //10位时间戳

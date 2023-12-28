@@ -6,7 +6,7 @@
 
 
 ```js
-import { useFormatLongNumber } from 'sec-hooks'
+import { useFormatLongNumber } from 'wt-hooks'
 
 console.log(useFormatLongNumber(9000)) // 9,000
 console.log(useFormatLongNumber(1000009000)) // 100000.9w

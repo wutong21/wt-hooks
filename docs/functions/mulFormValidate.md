@@ -13,7 +13,7 @@
   </div>
 </template>
 <script>
-import { mulFormValidate } from "sec-hooks";
+import { mulFormValidate } from "wt-hooks";
 export default {
   methods: {
     useDemo() {

@@ -15,7 +15,7 @@
   </div>
 </template>
 <script>
-import { validatePort } from "sec-hooks";
+import { validatePort } from "wt-hooks";
 export default {
     data() {
     return {

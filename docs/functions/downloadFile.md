@@ -6,7 +6,7 @@
 
 
 ```js
-import { downloadFile } from 'sec-hooks'
+import { downloadFile } from 'wt-hooks'
 
 downloadFile(data, fileName, type);
 

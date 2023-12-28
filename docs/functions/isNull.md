@@ -6,7 +6,7 @@
 
 
 ```js
-import { isNull } from 'sec-hooks'
+import { isNull } from 'wt-hooks'
 
 console.log(isNull(null)) // true
 console.log(isNull("")) // true

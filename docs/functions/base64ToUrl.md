@@ -6,7 +6,7 @@ base64图片数据转换成Url地址
 
 
 ```js
-import { base64ToUrl } from 'sec-hooks'
+import { base64ToUrl } from 'wt-hooks'
 
 base64ToUrl(imageContentType, base64)
 

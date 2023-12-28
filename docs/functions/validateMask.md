@@ -15,7 +15,7 @@
   </div>
 </template>
 <script>
-import { validateMask } from "sec-hooks";
+import { validateMask } from "wt-hooks";
 export default {
     data() {
     return {

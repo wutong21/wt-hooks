@@ -9,7 +9,7 @@
 ```vue
 
 <script>
-import { computeDomNeedHeight } from 'sec-hooks'
+import { computeDomNeedHeight } from 'wt-hooks'
 const excludeClassList = ['the-header', 'h-page-header', 'tabs', 'base-card'] // 高度总和 = 200px
 export default {
   methods: {

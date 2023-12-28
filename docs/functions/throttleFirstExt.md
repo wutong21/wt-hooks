@@ -12,7 +12,7 @@ scroll/resize/mousemove 事件
 
 
 ```js
-import { throttleFirstExt } from 'sec-hooks'
+import { throttleFirstExt } from 'wt-hooks'
 
 throttleFirstExt(fn, wait);
 

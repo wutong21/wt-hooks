@@ -6,7 +6,7 @@
 
 
 ```js
-import { getTimeOptions } from 'sec-hooks'
+import { getTimeOptions } from 'wt-hooks'
 
 getTimeOptions(start, end, interval)
 

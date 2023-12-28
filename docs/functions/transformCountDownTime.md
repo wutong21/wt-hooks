@@ -6,7 +6,7 @@
 
 
 ```js
-import { transformCountDownTime } from 'sec-hooks'
+import { transformCountDownTime } from 'wt-hooks'
 
 console.log(transformCountDownTime(9000)) // 2小时 30分钟 
 

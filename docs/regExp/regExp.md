@@ -4,7 +4,7 @@
 
 
 ```js
-import { regExp } from 'sec-hooks'
+import { regExp } from 'wt-hooks'
 
 regExp.number11.test('...');
 

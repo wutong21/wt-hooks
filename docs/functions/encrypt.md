@@ -6,7 +6,7 @@ AES 加密
 
 
 ```js
-import { encrypt } from 'sec-hooks'
+import { encrypt } from 'wt-hooks'
 
 encrypt(value, pwd, iv);
 

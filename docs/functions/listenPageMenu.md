@@ -13,7 +13,7 @@
   </div>
 </template>
 <script>
-import { listenPageMenu } from "sec-hooks";
+import { listenPageMenu } from "wt-hooks";
 export default {
   mounted() {
     // 传入菜单变化后需调用的方法数组
