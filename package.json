@@ -2,6 +2,8 @@
   "name": "wt-hooks",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
+  "exports": "./index.js",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev:docs": "vitepress dev docs",

@@ -31,19 +31,18 @@ export default defineConfig({
       // @ts-ignore
       input,
       output: {
-        // 在 UMD 构建模式下为这些外部化的依赖提供一个全局变量
         globals: {
           vue: "Vue",
         },
         manualChunks() {
-          return 'w-hooks';
+          return "index";
         },
         format: "umd",
         // 指定输出目录
         entryFileNames: "lib/[name]/[name].js",
-        chunkFileNames: "bin/[name].js",
+        chunkFileNames: "[name].js",
         assetFileNames: "[name]/[name].[extname]",
-        dir: "dist", // 这里可以指定要输出到的文件夹
+        // dir: "dist", // 这里可以指定要输出到的文件夹
       },
     },
   },
