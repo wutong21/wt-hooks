@@ -1,9 +1,11 @@
 import { DefaultTheme, defineConfig } from "vitepress";
 
 const nav: DefaultTheme.NavItem[] = [
-  { text: "指南", link: "/guide/" },
+  { text: "指南", link: "/README" },
   { text: "Hooks列表", link: "/functions/isNull" },
 ];
+
+const guide = { text: "指南", link: "/README" }
 
 const functions = {
   text: "Hooks列表",
@@ -75,18 +77,12 @@ const regExp = {
   items: [{ text: "正则表达式", link: "/regExp/regExp" }],
 };
 
+const total = [guide, regExp, functions]
+
 const sidebar: DefaultTheme.Sidebar = {
-  // "/guide": [
-  //   {
-  //     text: "指南",
-  //     items: [
-  //       { text: "组件库介绍", link: "/guide/" },
-  //       { text: "快速开始", link: "/guide/quickstart" },
-  //     ],
-  //   },
-  // ],
-  "/functions": [regExp, functions],
-  "/regExp": [regExp, functions],
+  "/README": total,
+  "/functions": total,
+  "/regExp": total,
 };
 
 export default defineConfig({

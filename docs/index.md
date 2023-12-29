@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 指南
-      link: /guide/
+      link: /README.md
     - theme: alt
       text: Hooks列表
       link: /functions/isNull
